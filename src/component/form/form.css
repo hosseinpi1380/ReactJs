@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightseagreen;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+}
+input{
+    margin: 10px;
+    width: 200px;
+    height: 30px
+}
+span{
+    color: red;
+    display: block;
+}
+p{
+    background-color: blue;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

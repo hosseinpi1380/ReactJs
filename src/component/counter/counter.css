@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,500&family=Rajdhani&family=Roboto+Condensed:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6E6FA;
+}
+.container{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFFFF0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container .buttons{
+    background-color: yellow;
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+}

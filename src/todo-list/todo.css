@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+.container{
+    width: 100%;
+}
+.header {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+form{
+    position: relative;
+    height: 100px;
+}
+ .inputTodo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+}
+.todo-container{
+   height: 400px;
+
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+*:focus{
+outline: none;
+}
+input[type='text'] {
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+}
+button[class='add'] {
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+button[class='done'] {
+    background-color: rgba(68, 100, 173, 1);
+    padding: 10px;
+    border: none;
+}
+button[class='remove'] {
+    background-color: red;
+    padding: 10px;
+    border: none;
+}
+select {
+    width: 120px;
+    padding: 5px;
+}

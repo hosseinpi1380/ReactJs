@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    display: inline-block;
+}
+li{
+    padding:20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.header button a{
+    color: white;
+}
+.header button {
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+.header li a:hover{
+    border-bottom: 1px solid red;
+    transition: 1s ease;
+}
+.header button:hover{
+    background-color: orange;
+}
