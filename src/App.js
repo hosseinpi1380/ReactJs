@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Counter from './counter'
+
+
 export default class App extends Component {
   constructor(){
     super()
@@ -8,11 +9,10 @@ export default class App extends Component {
       name:'hossein'
     }
   }
-
   render() {
     return (
       <div>
-        <Counter/>
+        
       </div>
     )
   }

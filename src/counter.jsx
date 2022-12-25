@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 export default class Counter extends Component {
     constructor(props) {
-        console.log('counter.jsx=>constructor')
         super(props)
         this.state = {
             counter: 0
@@ -23,4 +22,3 @@ export default class Counter extends Component {
         console.log('component will unmount')
     }
 }
-

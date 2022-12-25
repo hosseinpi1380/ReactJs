@@ -5,41 +5,10 @@
 }
 
 body {
-    
-    background-color: #2F4F4F;
-    
+    min-height: 100vh;
 }
-.App{
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    grid-gap: 10px;
-}
-.container{
-    width: 200px;
-    height: min-content;
-    background-color: #FFFAF0; 
-}
-.info{
-    text-align: center;
-    margin: 10px;
-    height: 50%;
+.carousel , img{
+    height: 450px;
+    width: 100%;
 }
 
-#back{
-    border: none;
-    background-color:#CD5C5C;
-    width: 50%;
-    color: white;
-}
-button{
-    padding: 10px;
-}
-#confirm{
-    border: none;
-    background-color: #228B22;
-    width: 50%;
-    height: 50%; 
-}
-li{
-    list-style-type: none;
-}
