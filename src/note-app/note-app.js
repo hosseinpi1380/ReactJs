@@ -6,6 +6,7 @@ import './note-app.css'
 export default class NoteApp extends Component {
   constructor() {
     super()
+    console.log('noteApp.js constructor')
     this.state = {
       colors: [
         "#fff",
@@ -14,7 +15,6 @@ export default class NoteApp extends Component {
         "#00c6fb",
         "#fda085",
         "#88d3ce",
-        "",
         "#a6c0fe",
       ],
       notes: [],

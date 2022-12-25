@@ -1,12 +1,24 @@
-import React from 'react'
-import NoteApp from './note-app/note-app'
-function App() {
-  return (
-    <div className="App">
+import React, { Component } from 'react'
+import Counter from './counter'
+export default class App extends Component {
+  constructor(){
+    super()
+    console.log('constructor.app')
+    this.state={
+      name:'hossein'
+    }
+  }
 
-      <NoteApp/>
-    </div>
-  );
+  render() {
+    return (
+      <div>
+        <Counter/>
+      </div>
+    )
+  }
+  
 }
 
-export default App;
+
+
+
