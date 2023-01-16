@@ -1,23 +1,13 @@
-import React, { Component } from 'react'
+import {React, useState} from 'react'
 
-export default class App extends Component {
-  constructor(){
-    super()
-    console.log('constructor.app')
-    this.state={
-      name:'hossein'
-    }
-  }
-  render() {
-    return (
-      <div>
-        <h1>hello</h1>
-      </div>
-    )
-  }
-  
+export default function App() {
+  const [counter, setCounter]=useState(0);
+  const g
+  return (
+    <div>
+      {counter}
+      <button onClick={()=>{increase()}}>+</button>
+      <button onClick={()=>{decrease()}}>-</button>
+    </div>
+  )
 }
-
-
-
-
