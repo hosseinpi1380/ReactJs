@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-import {bootstrapc}
 export default class App extends Component {
   constructor(){
     super()
